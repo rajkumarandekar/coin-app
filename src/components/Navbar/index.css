@@ -1,0 +1,41 @@
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+
+
+
+}
+
+.textHeader {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 15%;
+    padding-top: 10px;
+}
+
+.logoImg {
+    width: 100px;
+    cursor: pointer;
+}
+
+.mainHeader {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+
+}
+
+.textHeader1 {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 25%;
+}
+.header-hover:hover{
+background-color: rgb(190, 181, 181);
+
+}

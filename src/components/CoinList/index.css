@@ -1,0 +1,91 @@
+.table {
+    width: 85%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0/35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.redText {
+    color: red;
+}
+
+.greentext {
+    color: rgb(9,222,9);
+}
+
+tr:hover {
+  background-color: rgb(240,237,237);
+}
+
+tr {
+    height: 20px;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.table-flex {
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+.logoText {
+    margin-top: 20px;
+}
+
+span {
+    font-size: smaller;
+}
+
+button {
+    background-color: rgb(24,198,131);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.view {
+    margin-top: 25px;
+}
+
+.details {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+}
+.detailsMain {
+    background: linear-gradient(90deg, rgb(64, 84, 183) 50%, rgb(98, 175, 242) 100%);
+    height: 100px;
+}
+th{
+    border-bottom: 1px solid black;
+
+}
+table{
+    cursor: pointer;
+}
+.box {
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 16px;
+    box-shadow: 0px 6px 16px rgba(126, 133, 142, 0.16);
+
+}
